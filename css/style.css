@@ -1,0 +1,257 @@
+body {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 55px;
+  border: 2px solid;
+  border-radius: 40px;
+  background: none;
+  font: 400 14px / calc(16 / 14) "Roboto", sans-serif;
+}
+.btn:hover {
+  background-color: #f77e94;
+}
+header {
+  width: 100%;
+  font-weight: 400;
+}
+.header_top {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  width: 100%;
+  padding: 17px 0;
+}
+.header_top nav {
+  margin: 0 0 0 370px;
+}
+.header_top li {
+  margin: 0 30px 0 0;
+}
+.header_top a {
+  color: #333333;
+}
+.header_middle {
+  border: 1px solid #efefef;
+  width: 100%;
+  background: #fff;
+}
+.header_middle a {
+  color: #000;
+}
+.logo {
+  float: left;
+  margin: 20px 0;
+}
+.call_back {
+  float: right;
+  margin: 40px 0 0 0;
+}
+.call_back a {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+.btn_header {
+  margin: 0 0 0 30px;
+  border-color: #f13c6e;
+}
+.header_bottom {
+  padding: 30px 0;
+  background: #fff;
+}
+.header_bottom a {
+  color: #000;
+  margin: 0 40px 0 0;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+.header_bottom nav {
+  margin: 0 0 0 260px;
+}
+.first_section {
+  max-width: 100%;
+  min-height: 604px;
+  background: url("../images/Rectangle_2.jpg");
+}
+.info_block {
+  margin: 190px 0 0 0;
+  max-width: 308px;
+  color: #fff;
+}
+.info_block h2 {
+  margin: 0 0 38px 0;
+  font: 700 48px / calc(56 / 48) "Roboto", sans-serif;
+}
+.info_block p {
+  margin: 0 0 44px 0;
+  font: 400 14px / calc(20 / 14) "Roboto", sans-serif;
+}
+.btn_main {
+  color: #fff;
+  letter-spacing: 2px;
+}
+.card_section {
+  padding: 80px 0 90px 0;
+}
+.offer {
+  margin: 0 0 38px 0;
+  font: 700 24px / calc(28 / 24) "Roboto", sans-serif;
+}
+.card {
+  background: #fff;
+  max-width: 252px;
+  text-align: center;
+  padding: 25px 30px;
+  float: left;
+}
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+.describe {
+  margin: 15px 0 0 0;
+  font: 400 14px / calc(20 / 14) "Roboto", sans-serif;
+  color: #333333;
+}
+.price {
+  margin: 15px 0 0 0;
+  font: 500 21px / calc(25 / 21) "Roboto", sans-serif;
+  letter-spacing: 2px;
+}
+.btn_card {
+  margin: 15px 0 0 0;
+  padding: 8px 50px;
+  background: #f13c6e;
+  border-color: #f13c6e;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.third_section {
+  width: 100%;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.pink_block {
+  width: 540px;
+  padding: 35px 45px 35px 40px;
+  background: #f13c6e;
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.pink_info {
+  max-width: 250px;
+  float: left;
+}
+.pink_info span {
+  font: 700 18px / calc(21 / 18) "Roboto", sans-serif;
+}
+.pink_info p {
+  margin: 23px 0 25px 0;
+  max-width: 130px;
+  font: 400 14px / calc(20 / 14) "Roboto", sans-serif;
+}
+.pink_photo {
+  float: right;
+  margin: 20px 0 0 0;
+}
+.pink_block input {
+  max-width: 225px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  padding: 19px 30px;
+  font: 400 14px / calc(16 / 14);
+}
+.pink_block button {
+  padding: 9px 50px;
+}
+.fouth_section {
+  width: 100%;
+}
+.fouth_section li {
+  width: 25%;
+  padding: 35px 60px;
+  background: #fff;
+  border: 1px solid #efefef;
+}
+footer a {
+  font: 400 12px / calc(28 / 12) "Roboto", sans-serif;
+  color: #828282;
+}
+footer {
+  width: 100%;
+  background: #fff;
+  padding: 50px 0 0 0;
+}
+footer nav {
+  padding: 25px 0 45px 0;
+  border-top: 1px solid #efefef;
+}
+footer li {
+  float: none;
+}
+footer li:hover {
+  background: #e5e5e5;
+}
+.footer_card {
+  width: 252px;
+  float: left;
+}
+.footer_card:not(:last-child) {
+  margin-right: 30px;
+}
+.name_footer_card {
+  max-width: 99px;
+  font: 500 16px / calc(22 / 16) "Roboto", sans-serif;
+
+  padding: 0 0 30px 0;
+}
+.footer_top {
+  border-bottom: 1px solid #efefef;
+}
+.social {
+  float: left;
+  overflow: hidden;
+  margin: 37px 0;
+}
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #f13c6e;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  line-height: 45px;
+  color: #f13c6e;
+  margin-right: 17px;
+}
+.footer_bottom {
+  padding: 25px 0;
+  background: #efefef;
+  font: 400 12px / calc(14 / 12) "Roboto", sans-serif;
+  color: #828282;
+}
+.footer_bottom span:last-child {
+  margin-left: 583px;
+}
